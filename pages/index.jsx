@@ -2,7 +2,6 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-
   const dataInit = [
     {
       pecahan: 100000,
@@ -95,7 +94,7 @@ export default function Home() {
                   setUang(e.target.value);
                 }}
                 placeholder="Masukan bilangan..."
-                className="input input-bordered w-full"
+                className="input input-bordered w-full mb-1"
               />
             </div>
             <button
@@ -112,7 +111,7 @@ export default function Home() {
             </button>
           </div>
 
-          <div className="overflow-x-auto mt-2">
+          <div className="overflow-x-auto mt-1">
             <table className="table table-compact">
               <thead>
                 <tr>
