@@ -98,20 +98,20 @@ export default function Home() {
               />
             </div>
             <button
-              className="btn btn-outline btn-primary mx-2"
+              className="btn btn-outline btn-primary mx-2 mb-1"
               onClick={() => modulo()}
             >
               Hitung
             </button>
             <button
-              className="btn btn-error btn-outline text-error"
+              className="btn btn-error btn-outline text-error mb-1"
               onClick={() => setUang(" ")}
             >
               Reset
             </button>
           </div>
 
-          <div className="overflow-x-auto mt-1">
+          <div className="overflow-x-auto">
             <table className="table table-compact">
               <thead>
                 <tr>
